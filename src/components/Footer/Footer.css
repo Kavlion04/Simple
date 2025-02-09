@@ -1,0 +1,68 @@
+.footer {
+    margin-top: 100px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    border-top: 1px solid #EAEAEA;
+    
+}
+.companyy {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.company-img {
+    width: 32px;    
+    height: 32px;
+}
+.company-p {
+    color: #666666;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: start;
+    font-family: "Inter", sans-serif;
+}
+.company-b {
+    color:#333;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: start;
+    font-family: "Inter", sans-serif;
+}
+.ppp {
+    width: 230px;
+}
+.companyy input {
+    width: 230px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 15px 20px;
+    border: 1px solid #EAEAEA;
+}
+.footer-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 750px;
+    margin-top: 10px;
+    border-top: 1px solid #EAEAEA;
+}
+.footer-bottom p {
+    color: #666666;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+}
+.footer-bottom span {
+    color:
+    #338CF5;
+}
+.logossu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}

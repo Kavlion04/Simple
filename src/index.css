@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.modal {
+    transition: all 0.5s ease-in-out;
+    display: none;
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: all 0.5s ease-in-out;
+}
+.modal-content {
+    background-color: #fff;
+    padding: 20px;
+    margin: 0 auto;
+    width: 80%;
+    transition: all 0.5s ease-in-out;
+}
+.close {
+    float: right;
+    font-size: 48px;
+    cursor: pointer;
+}
+.modal-content img {
+    width: 40px;
+    height: 40px;
+}
+h5 {
+    font-size: 50px;
+    font-weight: 800;
+    color: #191919;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    margin-top: 20px;
+}
+.inputs {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-left: 340px;
+    margin-top: 30px;
+}
+.input-csss {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+.input-csss input {
+    padding: 15px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color: #666666;
+    background-color: #F2F2F2;
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    width: 500px;
+    outline: none;
+}
+.input-csss label {
+    font-size: 20px;
+    font-weight: 500;
+    color: #191919;
+    text-align: start;
+    font-family: "Inter", sans-serif;
+}
+.password-input {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 10px;
+}
+.password-input input {
+    padding: 15px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color: #666666;
+    background-color: #F2F2F2;
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    width: 500px;
+    outline: none;
+}
+.password p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #666666;
+    text-align: end;
+    font-family: "Inter", sans-serif;
+}
+.checkbox {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-top: 10px;
+}
+.checkbox input {
+    width: 20px;
+    height: 20px;
+}
+.checkbox label {
+    font-size: 14px;
+    font-weight: 400;
+    color: #666666;
+    text-align: start;
+    font-family: "Inter", sans-serif;
+}
+.btn-modal {
+    padding: 15px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    background-color: #338CF5;
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    width: 500px;
+    margin-top: 20px;
+}
+.password {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 230px;
+
+    margin-top: 10px;
+}
+.password input {
+    padding: 15px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color: #666666;
+    background-color: #F2F2F2;
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    width: 500px;
+    outline: none;
+}
+.password p {
+    font-size: 14px;
+    color: #0070F4;
+}
+.or {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    color: #666666;
+    text-align: center;
+    margin-left: 240px;
+    margin-top: 20px;
+    font-family: "Inter", sans-serif;
+}
+.github {
+    padding: 15px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    background-color: #191919;
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    width: 500px;
+    margin-top: 10px;
+    position: relative;
+}   
+.github i {
+    position: absolute;
+    left: 20px;
+    top: 13px;
+}
+.google {
+    padding: 15px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    background-color: #E53E3E;
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    width: 500px;
+    margin-top: 10px;
+    position: relative;
+}
+.google i {
+    position: absolute;
+    left: 20px;
+    top: 13px;
+}
+.signup {
+    font-size: 15px;
+    font-weight: 400;
+    color: #666666;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 130px;
+    font-family: "Inter", sans-serif;
+
+}
+.signup a {
+    text-decoration: none;
+    color: #0070F4;
+}
+
+
