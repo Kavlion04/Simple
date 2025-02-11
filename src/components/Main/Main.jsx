@@ -1,9 +1,10 @@
-import "./Main1.css"
+import "./Main.css"
 import img1 from "../../assets/images/Oval.png";
 import img2 from "../../assets/images/Illustration (1).png";
 import img3 from "../../assets/images/Oval (1).png";
 import icons from "../../assets/icons/Icon.png";
-function Main1() {
+
+function Main() {
   return (
     <div className='main1'>
       <h1>Make your website <span>wonderful</span></h1>
@@ -25,4 +26,4 @@ function Main1() {
   )
 }
 
-export default Main1
+export default Main;

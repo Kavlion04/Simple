@@ -7,7 +7,6 @@ function Main2() {
     return (
         <div className="main2">
             <div className="line">
-p
             </div>
             <h2>Explore the solutions</h2>
             <p className="main2-p">
